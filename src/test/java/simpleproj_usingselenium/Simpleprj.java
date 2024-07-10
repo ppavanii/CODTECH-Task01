@@ -23,7 +23,7 @@ public class Simpleprj {
 		Thread.sleep(2000);
 		
 		driver.findElement(By.xpath("//i[@class='oxd-icon bi-caret-down-fill oxd-userdropdown-icon']")).click();
-		driver.findElement(By.xpath("//ul[contains(@class,'oxd-dropdown-menu')]//a[contains(text(),'Logout')]")).click();
+		//driver.findElement(By.xpath("//ul[contains(@class,'oxd-dropdown-menu')]//a[contains(text(),'Logout')]")).click();
 		
 		
 		String act_title=driver.getTitle();
@@ -37,7 +37,7 @@ public class Simpleprj {
 		{
 			System.out.println("not launch");
 		}
-		driver.quit();
+		//driver.quit();
 	}
 
 	
